@@ -26,6 +26,12 @@ function {$this->id}_selectFile(url,file_name)
 {
     var dialog = CKEDITOR.dialog.getCurrent();
     dialogName = dialog.getName();
+    
+    CKEDITOR.on('instanceReady', function (ev) {
+        ev.editor.document.appendStyleText(`
+            .cke_notification.cke_notification_warning { display: none !important; }
+        `);
+    });
 
     if ( dialogName == 'link' ) {
 

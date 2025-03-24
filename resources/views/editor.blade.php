@@ -10,6 +10,11 @@
                 border-color:#9dcbff;
                 box-shadow:0 0 0 .25rem rgba(58,150,255,.25);
             }
+
+            .cke_notification.cke_notification_warning {
+                display: none !important;
+            }
+
         </style>
         <textarea name="{{$name}}" rows="{{ $rows }}" id="{{ $id }}" placeholder="{{ $placeholder }}" {!! $attributes !!} >
             {{ old($column, $value) }}
