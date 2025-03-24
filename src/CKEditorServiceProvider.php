@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\CKEditor;
+namespace OpenAdminCore\Admin\CKEditor;
 
 use Illuminate\Support\ServiceProvider;
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Form;
+use OpenAdminCore\Admin\Admin;
+use OpenAdminCore\Admin\Form;
 
 class CKEditorServiceProvider extends ServiceProvider
 {

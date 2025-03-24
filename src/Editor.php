@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\CKEditor;
+namespace OpenAdminCore\Admin\CKEditor;
 
-use OpenAdmin\Admin\Form\Field\Textarea;
+use OpenAdminCore\Admin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {

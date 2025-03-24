@@ -29,13 +29,13 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAdmin\\Admin\\CKEditor\\": "src/"
+            "OpenAdminCore\\Admin\\CKEditor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OpenAdmin\\Admin\\CKEditor\\CKEditorServiceProvider"
+                "OpenAdminCore\\Admin\\CKEditor\\CKEditorServiceProvider"
             ]
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenAdmin\Admin\CKEditor;
+namespace OpenAdminCore\Admin\CKEditor;
 
-use OpenAdmin\Admin\Extension;
+use OpenAdminCore\Admin\Extension;
 
 class CKEditor extends Extension
 {
