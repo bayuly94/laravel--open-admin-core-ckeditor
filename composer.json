@@ -1,6 +1,6 @@
 {
-    "name": "open-admin-ext/ckeditor",
-    "description": "Integrate CKEDITOR into open-admin",
+    "name": "laravel-open-admin-ext/ckeditor",
+    "description": "Integrate CKEDITOR into open-admin [CUSTOM]",
     "type": "library",
     "keywords": [
         "open-admin",
