@@ -18,18 +18,18 @@ class CKEditorServiceProvider extends ServiceProvider
         }
 
         if ($views = $extension->views()) {
-            $this->loadViewsFrom($views, 'open-admin-ckeditor');
+            $this->loadViewsFrom($views, 'laravel-open-admin-ckeditor');
         }
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/open-admin-ext/ckeditor')],
-                'open-admin-ckeditor'
+                [$assets => public_path('vendor/laravel-open-admin-ext/ckeditor')],
+                'laravel-open-admin-ckeditor'
             );
         }
 
         Admin::booting(function () {
-            Admin::js('vendor/open-admin-ext/ckeditor/ckeditor.js', false); // prevent minifying (last arg)
+            Admin::js('vendor/laravel-open-admin-ext/ckeditor/ckeditor.js', false); // prevent minifying (last arg)
             Form::extend('ckeditor', Editor::class);
         });
     }

@@ -15,7 +15,7 @@ composer require laravel-open-admin-ext/ckeditor
 
 Then
 ```bash
-php artisan vendor:publish --tag=open-admin-ckeditor
+php artisan vendor:publish --tag=laravel-open-admin-ckeditor
 ```
 
 ## Configuration

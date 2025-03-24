@@ -6,7 +6,7 @@ use OpenAdminCore\Admin\Form\Field\Textarea;
 
 class Editor extends Textarea
 {
-    protected $view = 'open-admin-ckeditor::editor';
+    protected $view = 'laravel-open-admin-ckeditor::editor';
 
     public function setupImageBrowse()
     {
