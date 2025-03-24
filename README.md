@@ -10,7 +10,7 @@ This is a `open-admin` extension that integrates `CKEDITOR` into the `open-admin
 ## Installation
 
 ```bash
-composer require open-admin-ext/ckeditor
+composer require laravel-open-admin-ext/ckeditor
 ```
 
 Then
