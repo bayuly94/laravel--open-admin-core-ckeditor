@@ -31,6 +31,12 @@ class CKEditorServiceProvider extends ServiceProvider
         Admin::booting(function () {
             Admin::js('vendor/laravel-open-admin-ext/ckeditor/ckeditor.js', false); // prevent minifying (last arg)
             Form::extend('ckeditor', Editor::class);
+
+
+            Admin::style('.cke_notification.cke_notification_warning {
+                display: none !important;
+            }');
+
         });
     }
 }
